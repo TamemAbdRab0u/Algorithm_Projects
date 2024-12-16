@@ -2,7 +2,7 @@
 
 class HeapSort
 {
-    public static void SortAlgorithm(int[] arr)
+    public static void Sort(int[] arr)
     {
         int n = arr.Length;
         for (int i = n / 2 - 1; i >= 0; i--)
@@ -65,7 +65,7 @@ class HeapSort
         Print(arr);
 
         Console.WriteLine("");
-        SortAlgorithm(arr);
+        Sort(arr);
 
         Console.Write("Sorted array: ");
         Print(arr);
