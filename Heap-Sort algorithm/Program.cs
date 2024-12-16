@@ -61,13 +61,13 @@ class HeapSort
 
         Console.WriteLine("----------");
 
-        Console.Write("Unsorted array: ");
+        Console.Write("Unsorted: ");
         Print(arr);
 
         Console.WriteLine("");
         Sort(arr);
 
-        Console.Write("Sorted array: ");
+        Console.Write("Sorted: ");
         Print(arr);
 
         Console.ReadKey();
