@@ -1,0 +1,7 @@
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\bin\Debug\Heap-Sort algorithm.exe.config
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\bin\Debug\Heap-Sort algorithm.exe
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\bin\Debug\Heap-Sort algorithm.pdb
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\obj\Debug\Heap-Sort algorithm.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\obj\Debug\Heap-Sort algorithm.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\obj\Debug\Heap-Sort algorithm.exe
+C:\Users\Dell\source\repos\Heap-Sort algorithm\Heap-Sort algorithm\obj\Debug\Heap-Sort algorithm.pdb
