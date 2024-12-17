@@ -1,0 +1,53 @@
+• Buildnig Kruskal’s Algorithm:
+   1- Sort all edges:
+	   Sort the edges in ascending order based on their weights
+
+   2- Use a Union data structure to manage subsets of vertices
+        Each vertex starts as its own subset
+
+   3- For each edge (u, v) in the sorted edge list:
+	   If u and v are in different subsets:
+	      Add the edge to the MST
+	      Union the subsets of u and v
+	      Stop when the MST has |V| - 1 edges
+
+-------------------------------------------------
+- PsudoCode -
+
+Kruskal Function(V, E):
+    Sort edges E in ascending order of weight
+
+    MST = Empty list
+    For each edge (src, dest, weight) in E
+	{
+		rootSrc = Find(src)
+        	rootDest = Find(dest)
+	}   
+
+        If (rootSrc != rootDest)
+	{
+		Add (src, dest, weight) to MST
+            	Union(rootSrc, rootDest)
+	}
+       
+        If (MST.Count = V - 1)
+	{
+		Break
+	}:
+            
+    Print MST
+
+End Kruskal
+
+Main Function:
+    Input V, E
+    EdgeList = Empty list
+    
+    For i = 1 to E
+	{
+		Read (src, dest, weight)
+        	Add (src, dest, weight) to EdgeList
+	}
+        
+    Call Kruskal(V, EdgeList)
+End Main
