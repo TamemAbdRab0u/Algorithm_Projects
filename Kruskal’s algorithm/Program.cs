@@ -98,7 +98,7 @@ class KruskalAlgo
             int weight = int.Parse(Inputedge[2]);
             edges.Add(new Edge(src, dest, weight));
         }
-
         Kruskal(v, edges);
+        Console.ReadKey();
     }
 }
