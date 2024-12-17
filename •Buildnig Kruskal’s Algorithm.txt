@@ -45,7 +45,7 @@ Main Function:
     
     For i = 1 to E
 	{
-		Read (src, dest, weight)
+		Input (src, dest, weight)
         	Add (src, dest, weight) to EdgeList
 	}
         
